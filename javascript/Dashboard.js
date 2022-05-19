@@ -1,4 +1,6 @@
-let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';document.getElementById('i58fd5').onclick = (event) => {
+let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';document.getElementById('id2nrl').onclick = (event) => {
+    event.preventDefault();
+    {  location.href= '/Count' ;}};document.getElementById('i58fd5').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
