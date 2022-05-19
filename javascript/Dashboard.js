@@ -17,7 +17,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');}});};document.getElementById('i28hlp').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('i28hlp').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -36,7 +36,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');}});};document.getElementById('isfxi7').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('isfxi7').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -55,7 +55,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');}});};document.getElementById('ipbhmr').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ipbhmr').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -74,7 +74,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');}});};document.getElementById('iacmxc').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('iacmxc').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -93,7 +93,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');}});};document.getElementById('ir6wd').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('ir6wd').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -112,7 +112,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');}});};document.getElementById('i3oro').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('i3oro').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -131,7 +131,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');}});};document.getElementById('itaum').onclick = (event) => {
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};document.getElementById('itaum').onclick = (event) => {
     event.preventDefault();
     let productId = window.location.pathname.replace('/Dashboard/','');
       if(productId === '/Dashboard' || productId === ''){
@@ -150,7 +150,7 @@ let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';
           }
         });
       }
-    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');}});};window.onload = () => {apiProductApi.getAllproduct((error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); const subDataElements =[...document.getElementById("iv3vc").querySelectorAll( "[dataitem='true']" )].filter(
+    apiProductApi.deleteproduct( productId, (error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully.');{  location.href= '/Dashboard' ;}}});};window.onload = () => {apiProductApi.getAllproduct((error, data, response) => { if (error) {console.error(error);} else { console.log('API called successfully. Returned data: ' + data); const subDataElements =[...document.getElementById("iv3vc").querySelectorAll( "[dataitem='true']" )].filter(
     (element, index, array) =>
     !array.reduce((hasAncestorFlag, dataItem) => hasAncestorFlag || (element.compareDocumentPosition(dataItem) & Node.DOCUMENT_POSITION_CONTAINS) === 8, false)
   );const map = new Map();  data.forEach((item,i) => {
