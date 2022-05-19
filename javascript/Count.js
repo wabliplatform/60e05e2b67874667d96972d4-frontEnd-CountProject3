@@ -1,4 +1,6 @@
-let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';let product = new TempApi.Product();
+let apiProductApi = new TempApi.ProductApi();import TempApi from '../src/index';let product = new TempApi.Product();document.getElementById('ig5s').onclick = (event) => {
+    event.preventDefault();
+    {  location.href= '/Dashboard' ;}};
  function calculateSize(img, maxWidth, maxHeight) {
       let width = img.width;
       let height = img.height;
